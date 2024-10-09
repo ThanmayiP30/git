@@ -1,0 +1,29 @@
+git init (intialize empty repository) 
+git config --global user.name "username" 
+git config --global user.email "useremail"
+git config --list
+git status
+git add filename/ .
+git commit -m "message"
+git log
+git reset id of commit which we have to unstage the commits(the above commit will unstage)
+git stash
+git stash pop
+git stash clear
+git remote -v
+git remote add origin master
+git push origin mater
+git branch branchname
+git checkout branchname
+git merge branchname
+git remote add upstream
+git push -f kunal (for force push)
+git fetch --all --prune (prune means fetch deleted commits also)
+git rebase -i commit id (it open a file were we have pick or (squash)s the commit that we want)
+git log --oneline
+git cherrypick
+
+
+
+
+
